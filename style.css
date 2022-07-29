@@ -1,0 +1,25 @@
+*{
+    margin:0%;
+    padding:0%;
+    background-color:rgb(28, 28, 95);
+}
+.fc{
+    width: 1230px;
+    height:600px;
+    padding:50px;
+    margin: 20px;
+    color:rgb(209, 190, 209);
+}
+.in{
+    width:300px;
+    height:30px;
+    margin:20px;
+    border-radius: 15px;
+    background-color: white;
+}
+.sex{
+    position:absolute;
+    margin-left: 530px;
+    top:386px;
+    color:rgb(209, 190, 209);
+}
