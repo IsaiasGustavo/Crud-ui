@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form name="Ficha_de_cadastro" action="#" method="get" class="fc">
+        <button type="button" id="btpj" name="btpj">Sou pessoa Juridica</button>
+        <div class="fc0">
+            <label class="l1">Nome</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc1">
+            <label class="l2">Sobrenome</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc2">
+            <label class="l3" >CPF</label><br>
+            <input class="in" type="number" required>
+        </div>
+    <div class="hide" id="pj" name="pj">   
+        <div class="fc0">
+            <label class="l1">Razão Social</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc1">
+            <label class="l2">Nome Fantasia</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc2">
+            <label class="l3">CNPJ</label><br>
+            <input class="in" type="number" required>
+        </div>
+    </div>     
+        <div class="fc3">
+            <label class="l4">Email</label><br>
+            <input class="in" type="text" placeholder="    exemplo@gmail.com">
+        </div>
+        <div class="fc4">
+            <label class="l5">Senha</label><br>
+            <input class="in" type="password">
+        </div>
+        <div class="fc5">
+            <label class="l6">Confirme a Senha</label><br>
+            <input class="in" type="password" pattern="[a-zA-Z0-9]{10}">
+        </div>
+        <div class="fc6">
+            <label class="l7">Telefone</label><br>
+            <input class="in" type="tel" pattern="/([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4})/" placeholder="  (__) 9____-____"
+                maxlength="11">
+        </div>
+        <div class="fc7">
+            <label class="l8">Data de Nascimento</label><br>
+            <input class="in" type="tel" pattern="" placeholder="   ___/___/____">
+        </div>
+        <div class="fc8">
+            <label class="l9">Opiniões</label>
+            <label class="l10">Sexo</label><br>
+            <textarea placeholder="Comentários"></textarea>
+        </div>
+        <div class="sex">
+            <input type="radio" name="s,n" value="M">
+            <label>Masculino</label>
+            <input type="radio" name="s,n" value="F">
+            <label>Feminino</label>
+            <input type="radio" name="s,n" value="P">
+            <label>Prefiro não informar</label>
+        </div>
+        <div class="fc9">
+            <label class="l11">CEP</label><br>
+            <input class="in" type="number">
+        </div>
+        <div class="fc10">
+            <label class="l12">Logradouro</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc11">
+            <label class="l13">Estado</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc12">
+            <label class="l14">Cidade</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc13">
+            <label class="l15">Bairro</label><br>
+            <input class="in" type="text">
+        </div>
+        <div class="fc14">
+            <label class="l16">Número</label><br>
+            <input class="in" type="text">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+
+    <script src="./app.js">Ff</script>
+
+</body>
+
+</html>
